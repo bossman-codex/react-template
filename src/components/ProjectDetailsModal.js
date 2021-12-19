@@ -4,6 +4,7 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+import "./style.css"
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -30,7 +31,7 @@ class ProjectDetailsModal extends Component {
         });
         if (this.props.data.images) {
           var img = images.map((elem, i) => {
-            return <div key={i} data-src={elem} />;
+            return <div className="img-container"  key={i} data-src={elem}  />;
           });
         }
       }
@@ -47,7 +48,7 @@ class ProjectDetailsModal extends Component {
           <i className="fas fa-times fa-3x close-icon"></i>
         </span>
         <div className="col-md-12">
-          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" }}>
+          <div className="col-md-10 mx-auto" style={{ paddingBottom: "50px" ,objectFit:"contain"}}>
             <div className="slider-tab">
               <span
                 className="iconify slider-iconfiy"

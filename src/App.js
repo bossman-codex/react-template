@@ -59,7 +59,7 @@ class App extends Component {
         this.setState({ resumeData: data });
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        console.log(err);
       },
     });
   }
@@ -68,13 +68,13 @@ class App extends Component {
     $.ajax({
       url: `portfolio_shared_data.json`,
       dataType: "json",
-      cache: false,
+      cache: true,
       success: function (data) {
         this.setState({ sharedData: data });
         document.title = `${this.state.sharedData.basic_info.name}`;
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        console.log(err);
       },
     });
   }
@@ -110,8 +110,7 @@ class App extends Component {
             style={{ display: "inline" }}
           >
             <span
-              className="iconify language-icon"
-              data-icon="twemoji-flag-for-flag-poland"
+             
               data-inline="false"
               id={window.$secondaryLanguageIconId}
             ></span>

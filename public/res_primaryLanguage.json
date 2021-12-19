@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Okpara ThankGod. A FullStack Web Developer :) I'm working with newest front-end frameworks like Reactjs and Nodejs. What you are seeing now is portfolio made with Reactjs.",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,12 +11,12 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "Food Delivery Web Application",
+        "startDate": "2021",
+        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles food delivery and implementing external APIs",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "https://portfolioimageq.s3.us-east-2.amazonaws.com/Screenshot+(270).png",
+          "https://portfolioimgh.s3.us-east-2.amazonaws.com/Screenshot+(271).png"
         ],
         "url": "",
         "technologies": [
@@ -35,14 +35,15 @@
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Certificate Verifier",
+        "startDate": "2019",
+        "description": "Personal project for storing valid certificates. I was responsible for testing certificate application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I used both React and Node in building the project",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "https://portfoliocert.s3.us-east-2.amazonaws.com/Screenshot+(272).png",
+          "https://portfoliocertii.s3.us-east-2.amazonaws.com/Screenshot+(273).png",
+          "https://portfoliocertiii.s3.us-east-2.amazonaws.com/Screenshot+(269).png"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -55,63 +56,51 @@
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+        "title": "Tinder clone Web App",
+        "startDate": "2020",
+        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows how messaging applications work. This was also my first project using Firebase. I've learned a lot!",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "https://portfoliomessageii.s3.us-east-2.amazonaws.com/WhatsApp+Image+2021-12-18+at+11.16.40+PM+(2).jpeg",
+          "https://portfoliomessages.s3.us-east-2.amazonaws.com/WhatsApp+Image+2021-12-18+at+11.16.40+PM+(3).jpeg"
         ],
-        "url": "https://github.com",
+        "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-react-original",
+            "name": "React"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
+        "company": "InvestLift",
         "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "years": "05.2021 - 12-2021",
         "mainTech": [
-          "Angular 8/9/10"
+          "React 15/16/17"
         ],
         "technologies": [
           "REST API",
-          "RxJS",
+          "Tailwind CSS",
           "JavaScript",
           "Bootstrap",
           "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Redux"
         ]
       },
       {
-        "company": "Serros Solutions",
+        "company": "ZummitInfo Labs",
         "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "years": "10.2021 - present",
         "mainTech": [
-          "Angular 7/8"
+          "React 16/17"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "HTML",
+          "CSS",
+          "JavaScript"
+          
         ]
       }
     ]
