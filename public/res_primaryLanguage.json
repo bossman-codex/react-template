@@ -56,6 +56,22 @@
         ]
       },
       {
+        "title": "Netflix clone Web App",
+        "startDate": "2020",
+        "description": "A react clone of Netflix UI",
+        "images": [
+          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(278).png",
+          "https://portfoliobucket41.s3.us-east-2.amazonaws.com/Screenshot+(279).png"
+        ],
+        "url": "https://bossman-codex.github.io/netflixClone/",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          }
+        ]
+      },
+      {
         "title": "Tinder clone Web App",
         "startDate": "2020",
         "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows how messaging applications work. This was also my first project using Firebase. I've learned a lot!",
@@ -102,6 +118,51 @@
           "JavaScript"
           
         ]
+      },
+      {
+        "company": "Freelance",
+        "title": "Front-End Developer",
+        "years": "2019 - Present",
+        "mainTech": [
+          "React 15/16/17"
+        ],
+        "technologies": [
+          "REST API",
+          "Tailwind CSS",
+          "JavaScript",
+          "Bootstrap",
+          "MDBootstrap",
+          "Redux"
+        ]
+      },
+      {
+        "company": "FreeLance",
+        "title": "Back-End Developer",
+        "years": "2020 - Present",
+        "mainTech": [
+          "NodeJs "
+        ],
+        "technologies": [
+          "REST API",
+          "AWS",
+          "ExpressJs",
+          "JavaScript",
+          "Postgres",
+          "MSSQL",
+          "MYsql"
+        ]
+      },
+      {
+        "company": "",
+        "title": "Cloud Developer",
+        "years": "05.2021 - 12-2021",
+        "mainTech": [
+          "AWS"
+        ],
+        "technologies": [
+          "AWS"
+        ]
+        
       }
     ]
   }

@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "name": "Okpara Thankgod",
-      "titles": [ "Front-end Developer", "Cloud developer (Beginner)", "Full-Stack Web Developer", "WordPress Developer" ],
+      "titles": [ "Front-end Developer", "Cloud developer", "Full-Stack Web Developer", "WordPress Developer" ],
       "social": [
         {
           "name": "github",
@@ -37,6 +37,16 @@
           "name": "MySql",
           "class": "devicon-mysql-plain",
           "level": "60"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "level": "70"
+        },
+        {
+          "name": "ReactJs",
+          "class": "devicon-react-original",
+          "level":"85"
         }
       ]
     }
